@@ -47,7 +47,7 @@ main p {
 
 /* Estilo opcional para destacar a última frase em negrito */
 main p:last-child {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 button {
