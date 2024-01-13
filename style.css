@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #45a049;
+  padding: 35px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#devForm {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#fullname {
+  width: 97%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+button {
+  margin-bottom: 12px;
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inputRow {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.inputRow label {
+  margin-bottom: 6px;
+}
+
+.removeBtn {
+  background-color: #ff4444;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.removeBtn:hover {
+  background-color: #cc0000;
+}
+
+@media (max-width: 600px) {
+  #devForm {
+    padding: 10px;
+  }
+
+  input,
+  button {
+    margin-bottom: 8px;
+  }
+
+  .inputRow {
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+
+  #fullname {
+    width: calc(100% - 16px);
+  }
+}
