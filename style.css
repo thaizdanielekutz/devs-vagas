@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   background-color: #45a049;
-  padding: 35px;
+  padding: 20px;
 }
 
 h2 {
@@ -57,7 +57,29 @@ button {
 button:hover {
   background-color: #45a049;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
+#backBtn {
+  display: block; /* Torna o botão um bloco para centralizar */
+  background-color: #45a049;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  margin: auto; /* Centraliza horizontalmente */
+  margin-bottom: 12px;
+  padding: 8px;
+  width: 20%;
+}
+
+#backBtn:hover {
+  background-color: darkred;
+}
 ul {
   list-style-type: none;
   padding: 0;
