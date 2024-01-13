@@ -128,7 +128,8 @@ ul {
   #fullname {
     width: calc(100% - 16px);
   }
-  #backBnt {
-    width: 50%;
+  #backBtn {
+    width: 60%; /* Ocupar toda a largura em telas menores */
+    margin-bottom: 8px; /* Espaçamento inferior reduzido */
   }
 }
